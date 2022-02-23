@@ -1,5 +1,10 @@
 # Zed2 installation
 
+Recommended specifications: https://www.stereolabs.com/docs/installation/specifications/
+
+---
+
+### Installation
 1. Plug in ZED2 camera with the USB cable.
 
 2. Download latest ZED SDK:
