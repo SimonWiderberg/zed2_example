@@ -1,23 +1,29 @@
-# zed2_example
+# Zed2 installation
 
-1. Plug in ZED2 camera with USB cable
+1. Plug in ZED2 camera with the USB cable.
 
 2. Download latest ZED SDK:
-    Website: https://www.stereolabs.com/developers/release/
+    https://www.stereolabs.com/developers/release/
 
 3. Install ZED python API: 
-	website: https://www.stereolabs.com/docs/app-development/python/install/
-	pip-install prerequisites: 
-    ==
-    python -m pip install cython numpy opencv-python pyopengl
-    ==
-	Open up a terminal as admin and find your SDK install directory.
-	Once in the SDK isntall directory type: 
-    ==
-    python get_python_api.py
-    ==
+	https://www.stereolabs.com/docs/app-development/python/install/
+	
+4. pip-install prerequisites: 
+    
+    ```
+        python -m pip install cython numpy opencv-python pyopengl
+    ```
 
-4. Import "pyzed.sl" to your python project 
-	some IDEs might complain that the import fails, but if you run the python script inside a terminal it should work
+5. Open up a terminal as admin and locate your SDK install directory.
+	
+    Once inside the SDK install directory run 
+   
+    ```
+        python get_python_api.py
+    ```
 
-5. run detect_camera.py to check if installation 
+4. To use the API, import "pyzed.sl" to your python projects
+	
+    Some IDEs might complain that the import fails, but if you run the python script inside a terminal it should work.
+
+5. Hopefully done! Run detect_camera.py to check.
