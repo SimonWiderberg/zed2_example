@@ -5,6 +5,8 @@
 2. Download latest ZED SDK:
     https://www.stereolabs.com/developers/release/
 
+    If CUDA is not already installed, the SDK installer will promt you to download and install CUDA
+
 3. Install ZED python API: 
 	https://www.stereolabs.com/docs/app-development/python/install/
 	
@@ -16,7 +18,7 @@
 
 5. Open up a terminal as admin and locate your SDK install directory.
 	
-    Once inside the SDK install directory run 
+    Once inside the SDK install directory run:
    
     ```
         python get_python_api.py
@@ -30,7 +32,7 @@
 
 ---
 
-### Useful Links
+### useful Links
 
 Python API documentation: https://www.stereolabs.com/docs/api/python/
 
