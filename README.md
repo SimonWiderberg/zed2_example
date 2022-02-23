@@ -27,3 +27,11 @@
     Some IDEs might complain that the import fails, but if you run the python script inside a terminal it should work.
 
 5. Hopefully done! Run detect_camera.py to check.
+
+---
+
+### Useful Links
+
+Python API documentation: https://www.stereolabs.com/docs/api/python/
+
+Tutorials for can be found here: https://www.stereolabs.com/docs/tutorials/
