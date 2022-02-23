@@ -15,7 +15,7 @@ Recommended specifications: https://www.stereolabs.com/docs/installation/specifi
 3. Install ZED python API: 
 	https://www.stereolabs.com/docs/app-development/python/install/
 	
-4. pip-install prerequisites: 
+4. pip-install dependencies: 
     
     ```
         python -m pip install cython numpy opencv-python pyopengl
@@ -37,7 +37,7 @@ Recommended specifications: https://www.stereolabs.com/docs/installation/specifi
 
 ---
 
-### useful Links
+### Useful Links
 
 Python API documentation: https://www.stereolabs.com/docs/api/python/
 
